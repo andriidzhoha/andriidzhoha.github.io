@@ -1,27 +1,31 @@
----
-layout: default
-title: Andrew Djoga
----
-
-<section>
-  <p>
-    Hi, I'm Andrew Djoga, Software Engineer in Berlin.
-  </p>
-  <p>
-    You can find me on <a href="https://github.com/Djo" target="_blank">GitHub</a>, <a href="https://twitter.com/andrewdjoga" target="_blank">Twitter</a> and <a href="https://linkedin.com/in/djoga" target="_blank">LinkedIn</a>.
-  </p>
-  <p>
-    E-mail is the best way to get in touch with me: <a href="mailto:andrew.djoga@gmail.com">andrew.djoga@gmail.com</a>.
-  </p>
-</section>
-
-<section class="activity">
-  <ul class="log">
-    {% for activity in site.activities %}
-      <li>
-        <a href="{{ activity.link }}" target="_blank">{{ activity.text }}</a>
-        <div class="date">{{ activity.date | date: '%d %b %Y' }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrii Dzhoha</title>
+    <meta name="author" content="Andrii Dzhoha" />
+    <meta name="description" content="Andrii Dzhoha's homepage"/>
+    <link rel="stylesheet" href="/css/application.css">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
+  </head>
+  <body>
+    <div id="content">
+      <section>
+        <p>
+          Hi, I'm Andrii Dzhoha (aka Andrew Djoga), Software Engineer in Berlin.
+        </p>
+        <p>
+          You can find me on <a href="https://github.com/Djo" target="_blank">GitHub</a>, <a href="https://twitter.com/andrewdjoga" target="_blank">Twitter</a> and <a href="https://linkedin.com/in/djoga" target="_blank">LinkedIn</a>.
+        </p>
+        <p>
+          E-mail is the best way to get in touch with me: <a href="mailto:andrew.djoga@gmail.com">andrew.djoga@gmail.com</a>.
+        </p>
+        <p>
+          My site: <a href="https://djo.github.io/">https://djo.github.io</a>.
+        </p>  
+      </section>
+    </div>
+  </body>
+</html>
